@@ -1,3 +1,8 @@
 spring:
   application:
     name: agro-people-ms
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: root
+      password: s3cr3t
